@@ -6,7 +6,7 @@
 
 ## 🏆 Bounty Overview
 
-![Total Bounty](https://img.shields.io/badge/Total%20Bounty-6,500%20RMB-2ea44f) ![Reports](https://img.shields.io/badge/Reports-8-0969da) ![SRCs](https://img.shields.io/badge/SRCs-5-8250df) ![Updated](https://img.shields.io/badge/Updated-2026-08-09-9a6700)
+![Total Bounty](https://img.shields.io/badge/Total%20Bounty-6%2C500%20RMB-2ea44f) ![Reports](https://img.shields.io/badge/Reports-8-0969da) ![SRCs](https://img.shields.io/badge/SRCs-5-8250df) ![Updated](https://img.shields.io/badge/Updated-2026--08--09-9a6700)
 
 <p align="center"><img src="assets/bounty_trend.svg" alt="Cumulative bounty line chart"></p>
 

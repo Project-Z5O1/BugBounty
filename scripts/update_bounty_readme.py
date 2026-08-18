@@ -244,7 +244,12 @@ def build_vendor_svg(rows: list[dict]) -> str:
 
 
 def badge(label: str, message: str, color: str) -> str:
-    url = f"https://img.shields.io/badge/{quote(label, safe=',')}-{quote(message, safe=',_')}-{color}"
+    # shields.io static badges use '-' as the separator between label,
+    # message and color; literal dashes must therefore be doubled ('--')
+    # or the route fails to parse and renders "404 badge not found".
+    def esc(s: str) -> str:
+        return quote(s.replace("-", "--"), safe="")
+    url = f"https://img.shields.io/badge/{esc(label)}-{esc(message)}-{color}"
     return f"![{html.escape(label)}]({url})"
 
 
